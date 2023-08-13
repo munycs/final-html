@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work HTML 8</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* font-size: 20px; */
+        }
+        h1{
+            text-align: center;
+            margin-top: 60px;
+            font-size: 40px;
+        }
+
+
+        /* Apply styles to the registration form container */
+        .registration-form {
+            width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 3px solid #ffe6ff; /* Apply border with desired width and color */
+            border-radius: 10px; /* Optional: Add rounded corners */
+            background-color: blueviolet;
+        }
+        button{
+            width: 70px;
+            border-radius: 5px;
+            border-color: rgb(237, 240, 243);
+            border-collapse: separate;
+            background-color: #63bbee;
+        }
+        .heading{
+            padding: 20px;
+        }
+        td{
+            font-size: 20px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><b>Home Work HTML 8</b></h1>
+
+   <form  class="registration-form">
+        <center><h2 class="heading">Form Register</h2></center>
+        <table>
+    
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text"></td>
+            </tr>
+    
+            <tr>
+                <td>Email:</td>
+                <td><input type="email"></td>
+            </tr>
+    
+            <tr>
+                <td>Password:</td>
+                <td><input type="password"></td>
+            </tr>
+    
+            <tr>
+                <td>Gender:</td>
+                <td><select name="" >
+                    <option value="Select your gender">Select your gender</option>
+                </select></td>
+            </tr>
+    
+            <tr>
+                <td>Subscribe:</td>
+                <td><label for="">Yes</label>
+                    <input type="radio" name="" id="">
+                    <label for="">No</label>
+                    <input type="radio" name="" id="">
+                </td>
+            </tr>
+    
+            <tr>
+                <td><input type="checkbox" name="" id="">I Agree </td>
+                <td>Terms and Conditions: </td>
+            </tr>
+    
+            <tr>
+                <td><button>Register</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
